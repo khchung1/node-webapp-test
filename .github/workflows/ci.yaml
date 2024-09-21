@@ -6,8 +6,8 @@ on: [workflow_dispatch]
 #       - main
 
 env:            
-  AWS_REGION: #replace-value      
-  ECR_REPOSITORY: #replace-value
+  AWS_REGION: ap-southeast-1      
+  ECR_REPOSITORY: kh/0921/pipeline
 
 jobs:
   build:
