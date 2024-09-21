@@ -5,7 +5,7 @@ COPY . .
 RUN npm install
 EXPOSE 3000
 
-CMD ["node", "services/user.js"]
+CMD ["node", "test/test.js"]
 
 
 
