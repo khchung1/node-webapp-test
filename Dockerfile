@@ -7,7 +7,5 @@ EXPOSE 3000
 
 CMD ["node", "test/test.js"]
 
-
-
 FROM base AS test
 RUN npm test
