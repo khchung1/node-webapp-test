@@ -9,7 +9,7 @@ const userList = [
 
 describe('filterItemsByID', function () {
  it('should return object if id is found', function () {
-   user = userService._filterItemsByID(userList, 33)
+   user = userService._filterItemsByID(userList, 3)
    assert.equal(user.id, 3);
  });
  it('should return empty object if id is not found', function () {
